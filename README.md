@@ -1,15 +1,15 @@
-# Calorimetry Lab Analysis
+# Calorimetry Lab
+This project demonstrates a lab experiment related to **Calorimetry**, a method used to measure the amount of heat released or absorbed during chemical reactions or physical changes. It consists of a Python notebook (`Calorimetry Lab.ipynb`) and an Excel file (`Calorimetry lab values.xlsx`) that provides real experimental values for calorimetric calculations.
 
-This repository contains the analysis and calculations for a calorimetry lab experiment. The main components are:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Files in Repository](#files-in-repository)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
 
-1. **Calorimetry Lab.ipynb**: A Jupyter notebook containing the detailed analysis, calculations, and explanations for various calorimetry experiments, including:
-   - Specific heat capacity determination
-   - Heat of solution determination
-   - Latent heat capacity determination
-
-2. **Calorimetry lab values.xlsx**: An Excel file containing the raw data and measurements from the lab experiments.
-
-## Overview
+## Introduction
+Calorimetry is an important technique in thermodynamics and physical chemistry. This repository contains tools and data for performing basic calorimetry experiments and calculations. The Python notebook automates the calculation of heat transfer, while the Excel sheet provides sample experimental data.
 
 The Jupyter notebook covers several key aspects of calorimetry:
 
@@ -19,14 +19,33 @@ The Jupyter notebook covers several key aspects of calorimetry:
 - Error analysis and uncertainty calculations
 - Comparisons with standard values and discussions on potential sources of error
 
+## Files in Repository
+- **Calorimetry Lab.ipynb**: Jupyter notebook containing Python code to calculate calorimetry data from experimental values.
+- **Calorimetry lab values.xlsx**: Excel sheet with data from calorimetry experiments for use in the Python notebook.
+- **.gitignore**: Ignores temporary and unnecessary files in the project.
+- **README.md**: The file you are currently reading, which explains the repository contents.
+
+## Installation
+To run the notebook on your local machine, follow these steps:
+
+1. Clone this repository:
+https://github.com/smahala02/Calorimetry.git
+
+2. Install dependencies:
+Ensure you have Python installed. You can create a virtual environment and install necessary libraries such as `pandas` and `numpy`.
+
 ## Usage
+1. Open the Jupyter notebook (`Calorimetry Lab.ipynb`) using JupyterLab or Jupyter Notebook.
+2. Load the `Calorimetry lab values.xlsx` file into the notebook as instructed to perform calculations.
+3. Run the cells to compute the heat transfer and other relevant calorimetric data.
 
-To view and run the analysis:
+## Contributing
+If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-1. Open the `Calorimetry Lab.ipynb` file in Jupyter Notebook or JupyterLab.
-2. Ensure you have the required Python libraries installed (numpy is used in the notebook).
-3. Run the cells to see the calculations and results.
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-## Data
 
-The `Calorimetry lab values.xlsx` file contains the raw experimental data used in the analysis. This data is referenced and used throughout the Jupyter notebook.
