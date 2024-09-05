@@ -1,0 +1,31 @@
+# Calorimetry Lab - Example
+
+This example demonstrates how the calorimetry calculations are performed using the provided experimental data and Python notebook.
+
+## Code Example
+
+```python
+# Import necessary libraries
+import pandas as pd
+
+
+# Load the Excel data into a DataFrame
+data = pd.read_excel("Calorimetry lab values.xlsx")
+
+# Display the first few rows of the data
+data.head()
+
+
+# Calculate the heat (Q) using the formula Q = m * c * ΔT
+data['Heat (J)'] = data['Mass of Water (g)'] * data['Heat Capacity of Water (J/g°C)'] * (data['Final Temp (°C)'] - data['Initial Temp (°C)'])
+
+# Show the results
+data[['Experiment No.', 'Heat (J)']]
+
+
+
+---
+
+This file is standalone and can be included in your repository as **example.md**. It will give users a clear and concise demonstration of how to work with your calorimetry data and perform calculations. 
+
+Let me know if you need anything else!
