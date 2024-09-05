@@ -1,4 +1,3 @@
-# Calorimtery
 # Calorimetry Lab Analysis
 
 This repository contains the analysis and calculations for a calorimetry lab experiment. The main components are:
