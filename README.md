@@ -7,6 +7,7 @@ This project demonstrates a lab experiment related to **Calorimetry**, a method 
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Introduction
 Calorimetry is an important technique in thermodynamics and physical chemistry. This repository contains tools and data for performing basic calorimetry experiments and calculations. The Python notebook automates the calculation of heat transfer, while the Excel sheet provides sample experimental data.
@@ -48,4 +49,6 @@ If you'd like to contribute to this project, please fork the repository and use 
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
