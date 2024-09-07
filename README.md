@@ -52,3 +52,7 @@ If you'd like to contribute to this project, please fork the repository and use 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Author
+- [smahala02](https://github.com/smahala02)
+
+
